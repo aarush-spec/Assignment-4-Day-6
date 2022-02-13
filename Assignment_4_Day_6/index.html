@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Music Player</title>
+    <link rel = "stylesheet" href="./index.css">
+</head>
+<body>
+    <section class="container">
+        <div class="section1">
+            <header class="header">
+                <p>
+                    Musify
+                </p>
+            </header>
+            <div class="audios">
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/Screenshot 2022-02-12 222658.png">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Vaathi - Anirudh Ravichandra
+                        </h1>
+                        <button class="btn" onclick="playAudio(1)">Play</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/Screenshot 2022-02-12 222725.png">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Maari - Dhanush & Anirudh
+                        </h1>
+                        <button class="btn"  onclick="playAudio(2)">Play</button>
+                    </div>
+                </div>
+                 
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/Screenshot 2022-02-12 222757.png">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title"> Be Free - Vidya Vox
+                        </h1>
+                        <button class="btn"  onclick="playAudio(3)">Play</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/fearless.png">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Fearless - Lost sky
+                        </h1>
+                        <button class="btn"  onclick="playAudio(4)">Play</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/gadi gung.png">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Gadi - Marathi Song
+                        </h1>
+                        <button class="btn"  onclick="playAudio(5)">Play</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/YArr anmule.png">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Yaar Anmulle - Sharry Mann
+                        </h1>
+                        <button class="btn"  onclick="playAudio(6)">Play</button>
+                    </div>
+                </div>
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/Badnaam.png">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Badnaam - Mankirt Aulakh
+                        </h1>
+                        <button class="btn"  onclick="playAudio(7)">Play</button>
+                    </div>
+                </div>
+
+                <div class="audio">
+                    <div class="audio_img">
+                        <img src="./thumbnails/amplifier.png">
+                    </div>
+                    <div class="audio_detail">
+                        <h1 class="audio_title">Amplifier - Imran Khan
+                        </h1>
+                        <button class="btn"  onclick="playAudio(8)">Play</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="section2">
+            <div class="thumbnails">
+                <img id="thumbnails" src="./thumbnails/fearless.png">
+            </div>
+            <audio id = "audio_player"   class="audio_player" src="./songs/Lost Sky - Fearless [NCS Release].mp3" controls></audio>
+            <h1 class="audio_player_title" id="audio_player_title">Fearless - Lost Sky</h1>   
+         </div>
+    </section>
+
+ 
+    <script src="./index.js"></script>
+</body>
+</html>
